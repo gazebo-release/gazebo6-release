@@ -34,7 +34,7 @@ Build-Depends: cmake,
      libavformat-dev,
      libavcodec-dev,
      libswscale-dev,
-     sdformat (>= 1.4.4~)
+     libsdformat-dev-prerelease (>= 2.0.0~)
 Vcs-Browser: https://bitbucket.org/osrf/gazebo3-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo3-release
 Homepage: http://gazebosim.org
@@ -113,6 +113,7 @@ Depends: libtbb-dev,
 	 libcegui-mk2-dev,
 	 libgts-dev,
 	 libode-dev,
+	 libsdformat-dev-prerelease,
 	 libgazebo3-prerelease (= ${binary:Version}),
 	 gazebo-common-prerelease (= ${source:Version}),
 	 ${misc:Depends}
