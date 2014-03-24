@@ -1,4 +1,4 @@
-Source: gazebo
+Source: gazebo3-prerelease
 Standards-Version: 3.9.5
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: science
