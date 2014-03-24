@@ -5,6 +5,7 @@ Section: science
 Priority: extra
 Build-Depends: cmake,
      debhelper (>= 9),
+     bash-completion,
      doxygen,
      doxygen-latex,
      texlive-fonts-recommended,

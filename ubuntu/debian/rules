@@ -57,4 +57,4 @@ override_dh_strip:
 	dh_strip -a --dbg-package=gazebo3-dbg-prerelease
 
 %:
-	dh $@ --parallel
+	dh $@ --parallel --with bash-completion  
