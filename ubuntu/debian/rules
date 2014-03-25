@@ -18,13 +18,15 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH 2>/dev/null
 # Configuration flags.
 CONFIGURE_ARGS=
 
-# If multiarch is supported, override LIB_INSTALL_DIR.
+# If multiarch is supported, override CMAKE_INSTALL_LIB
 ifneq ($(DEB_HOST_MULTIARCH),)
 CONFIGURE_ARGS+=-DCMAKE_INSTALL_LIBDIR:STRING="lib/${DEB_HOST_MULTIARCH}"
 endif
 
 override_dh_auto_configure:
-	dh_auto_configure -- $(CONFIGURE_ARGS)
+	dh_auto_configure -- \
+                -DENABLE_TESTS_COMPILATION:BOOL=False \
+	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
 override_dh_auto_build-indep:
