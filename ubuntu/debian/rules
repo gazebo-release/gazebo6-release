@@ -20,7 +20,7 @@ CONFIGURE_ARGS=
 
 # If multiarch is supported, override LIB_INSTALL_DIR.
 ifneq ($(DEB_HOST_MULTIARCH),)
-CONFIGURE_ARGS+=-DLIB_INSTALL_DIR:STRING="lib/${DEB_HOST_MULTIARCH}"
+CONFIGURE_ARGS+=-DCMAKE_INSTALL_LIBDIR:STRING="lib/${DEB_HOST_MULTIARCH}"
 endif
 
 override_dh_auto_configure:
