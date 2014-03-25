@@ -40,7 +40,7 @@ Vcs-Browser: https://bitbucket.org/osrf/gazebo3-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo3-release
 Homepage: http://gazebosim.org
 
-Package: gazebo3-prerelease-common
+Package: gazebo3-common-prerelease
 Architecture: all
 Depends: ttf-dejavu-core, ${misc:Depends}
 Multi-Arch: foreign
