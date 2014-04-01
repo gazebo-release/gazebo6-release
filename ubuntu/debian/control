@@ -116,7 +116,7 @@ Depends: libtbb-dev,
 	 libode-dev,
 	 libsdformat-dev-prerelease,
 	 libgazebo3-prerelease (= ${binary:Version}),
-	 gazebo-common-prerelease (= ${source:Version}),
+	 gazebo3-common-prerelease (= ${source:Version}),
 	 ${misc:Depends}
 Multi-Arch: same
 Conflicts: libgazebo-dev, libgazebo-dev-nightly
