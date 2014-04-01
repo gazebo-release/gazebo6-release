@@ -63,6 +63,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
 	 libgazebo3-prerelease (= ${binary:Version}),
 	 gazebo3-common-prerelease (= ${source:Version})
+Recommends: gazebo3-plugin-base-prerelease
 Suggests: gazebo3-doc-prerelease
 Multi-Arch: foreign
 Conflicts: gazebo,
@@ -118,6 +119,7 @@ Depends: libtbb-dev,
 	 libgazebo3-prerelease (= ${binary:Version}),
 	 gazebo3-common-prerelease (= ${source:Version}),
 	 ${misc:Depends}
+Recommends: gazebo3-plugin-base-prerelease
 Multi-Arch: same
 Conflicts: libgazebo-dev, libgazebo-dev-nightly
 Description: Open Source Robotics Simulator - Development Files
