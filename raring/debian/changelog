@@ -1,3 +1,9 @@
+gazebo3-prerelease (3.0.2-2~raring) raring; urgency=low
+
+  * gazebo3-prerelease 3.0.2-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 07 Apr 2014 12:02:36 +0200
+
 gazebo3-prerelease (3.0.2-1~raring) raring; urgency=low
 
   * gazebo3-prerelease 3.0.2-1 release
