@@ -117,8 +117,8 @@ Depends: libtbb-dev,
 	 libsdformat2-dev-prerelease,
 	 libgazebo3-prerelease (= ${binary:Version}),
 	 gazebo3-common-prerelease (= ${source:Version}),
+	 gazebo3-plugin-base-prerelease (= ${source:Version}),
 	 ${misc:Depends}
-Recommends: gazebo3-plugin-base-prerelease
 Multi-Arch: same
 Conflicts: libgazebo-dev, libgazebo-dev-nightly
 Description: Open Source Robotics Simulator - Development Files
