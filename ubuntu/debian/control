@@ -1,4 +1,4 @@
-Source: gazebo3-prerelease
+Source: gazebo3
 Standards-Version: 3.9.5
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: science
@@ -35,12 +35,12 @@ Build-Depends: cmake,
      libavformat-dev,
      libavcodec-dev,
      libswscale-dev,
-     libsdformat2-dev-prerelease
+     libsdformat2-dev
 Vcs-Browser: https://bitbucket.org/osrf/gazebo3-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo3-release
 Homepage: http://gazebosim.org
 
-Package: gazebo3-common-prerelease
+Package: gazebo3-common
 Architecture: all
 Depends: ttf-dejavu-core, ${misc:Depends}
 Multi-Arch: foreign
@@ -57,18 +57,18 @@ Description: Open Source Robotics Simulator - Shared files
  This package contains shared files such as 3d models, worlds and
  robots.
 
-Package: gazebo3-prerelease
+Package: gazebo3
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 libgazebo3-prerelease (= ${binary:Version}),
-	 gazebo3-common-prerelease (= ${source:Version})
-Recommends: gazebo3-plugin-base-prerelease
-Suggests: gazebo3-doc-prerelease
+	 libgazebo3 (= ${binary:Version}),
+	 gazebo3-common (= ${source:Version})
+Recommends: gazebo3-plugin-base
+Suggests: gazebo3-doc
 Multi-Arch: foreign
 Conflicts: gazebo,
            gazebo-current,
-           gazebo3,
+           gazebo3-prerelease,
            gazebo3-nightly,
 Description: Open Source Robotics Simulator
  Gazebo is a multi-robot simulator for outdoor environments. Like
@@ -78,7 +78,7 @@ Description: Open Source Robotics Simulator
  and physically plausible interactions between objects (it includes an
  accurate simulation of rigid-body physics).
 
-Package: libgazebo3-prerelease
+Package: libgazebo3
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -86,7 +86,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Conflicts: gazebo,
            gazebo-current,
-           libgazebo3, 
+           libgazebo3-prerelease, 
            libgazebo3-nightly
 Description: Open Source Robotics Simulator - shared library
  Gazebo is a multi-robot simulator for outdoor environments. Like
@@ -98,7 +98,7 @@ Description: Open Source Robotics Simulator - shared library
  .
  This package gathers shared libraries used
 
-Package: libgazebo-dev-prerelease
+Package: libgazebo-dev
 Architecture: any
 Section: libdevel
 Depends: libtbb-dev,
@@ -114,13 +114,14 @@ Depends: libtbb-dev,
 	 libcurl4-openssl-dev,
 	 libcegui-mk2-dev,
 	 libgts-dev,
-	 libsdformat2-dev-prerelease,
-	 libgazebo3-prerelease (= ${binary:Version}),
-	 gazebo3-common-prerelease (= ${source:Version}),
-	 gazebo3-plugin-base-prerelease (= ${source:Version}),
+	 libsdformat2-dev,
+	 libgazebo3 (= ${binary:Version}),
+	 gazebo3-common (= ${source:Version}),
+	 gazebo3-plugin-base (= ${source:Version}),
 	 ${misc:Depends}
 Multi-Arch: same
-Conflicts: libgazebo-dev, libgazebo-dev-nightly
+Conflicts: libgazebo-dev-prerelease, 
+           libgazebo-dev-nightly
 Description: Open Source Robotics Simulator - Development Files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -132,12 +133,12 @@ Description: Open Source Robotics Simulator - Development Files
  This package contains development files (headers, shared library
  symbolic link and pkg-config file).
 
-Package: gazebo3-plugin-base-prerelease
+Package: gazebo3-plugin-base
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 gazebo3-prerelease (= ${binary:Version})
-Enhances: gazebo3-prerelease
+	 gazebo3 (= ${binary:Version})
+Enhances: gazebo3
 Multi-Arch: foreign
 Conflicts: gazebo3-plugins-base, gazebo3-plugins-nightly
 Description: Open Source Robotics Simulator - base plug-ins
@@ -150,10 +151,10 @@ Description: Open Source Robotics Simulator - base plug-ins
  .
  This package gathers built-in plugins.
 
-Package: gazebo3-dbg-prerelease
+Package: gazebo3-dbg
 Architecture: any
 Section: debug
-Depends: gazebo3-prerelease (= ${binary:Version}),
+Depends: gazebo3 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: foreign
 Conflicts: gazebo3-dbg, gazebo3-dbg-nightly
@@ -167,7 +168,7 @@ Description: Open Source Robotics Simulator - Debugging Symbols
  .
  This package contains the debugging symbols.
 
-Package: gazebo3-doc-prerelease
+Package: gazebo3-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
