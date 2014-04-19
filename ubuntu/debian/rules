@@ -30,8 +30,10 @@ override_dh_auto_configure:
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
-override_dh_auto_build-indep:
-	dh_auto_build -- doc
+# Currently broken:
+# https://bitbucket.org/osrf/gazebo/issue/1141
+#override_dh_auto_build-indep:	
+	#dh_auto_build -- doc
 
 override_dh_install:
 	dh_install -- # Install.
