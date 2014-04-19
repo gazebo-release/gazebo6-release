@@ -26,6 +26,7 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
                 -DENABLE_TESTS_COMPILATION:BOOL=False \
+                -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
