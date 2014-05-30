@@ -26,11 +26,14 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
                 -DENABLE_TESTS_COMPILATION:BOOL=False \
+                -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
-override_dh_auto_build-indep:
-	dh_auto_build -- doc
+# Currently broken:
+# https://bitbucket.org/osrf/gazebo/issue/1141
+#override_dh_auto_build-indep:	
+	#dh_auto_build -- doc
 
 override_dh_install:
 	dh_install -- # Install.
