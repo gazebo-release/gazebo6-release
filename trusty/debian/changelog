@@ -1,3 +1,9 @@
+gazebo3 (3.0.0-4~trusty) trusty; urgency=low
+
+  * gazebo3 3.0.0-4 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 01 Jul 2014 16:25:15 +0200
+
 gazebo3 (3.0.0-3~trusty) trusty; urgency=low
 
   * gazebo3 3.0.0-3 release
