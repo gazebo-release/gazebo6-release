@@ -35,6 +35,7 @@ Build-Depends: cmake,
      libavformat-dev,
      libavcodec-dev,
      libswscale-dev,
+     libusb-1.0-0-dev,
      libsdformat2-dev-prerelease
 Vcs-Browser: https://bitbucket.org/osrf/gazebo4-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo4-release
@@ -114,6 +115,7 @@ Depends: libtbb-dev,
 	 libcurl4-openssl-dev,
 	 libcegui-mk2-dev,
 	 libgts-dev,
+	 libusb-1.0-0-dev,
 	 libsdformat2-dev-prerelease,
 	 libgazebo4-prerelease (= ${binary:Version}),
 	 gazebo4-common-prerelease (= ${source:Version}),
