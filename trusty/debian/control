@@ -16,27 +16,30 @@ Build-Depends: cmake,
      freeglut3-dev,
      libcurl4-openssl-dev,
      libtinyxml-dev,
-     libtar-dev,
+     libtar-dev (>= 1.2.20-3ubuntu0.1),
      libtbb-dev,
      libogre-1.8-dev,
      libxml2-dev,
      pkg-config,
      libqt4-dev,
      libltdl-dev,
-     libboost-thread-dev,
-     libboost-signals-dev,
-     libboost-system-dev,
-     libboost-filesystem-dev,
-     libboost-program-options-dev,
-     libboost-regex-dev,
-     libboost-iostreams-dev,
+     libboost1.54-dev (>= 1.54.0-4ubuntu3.1), 
+     libboost-thread-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-signals-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-system-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-filesystem-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-program-options-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-regex-dev (>= 1.54.0-4ubuntu3.1),
+     libboost-iostreams-dev (>= 1.54.0-4ubuntu3.1),
      robot-player-dev,
      libcegui-mk2-dev,
      libavformat-dev,
      libavcodec-dev,
      libswscale-dev,
      libusb-1.0-0-dev,
-     libsdformat2-dev-prerelease
+     libsdformat2-dev-prerelease | libsdformat-dev (>= 2.0.0),
+     libsdformat2-dev-prerelease | libsdformat-dev (<< 3.0.0),
+     ruby-ronn
 Vcs-Browser: https://bitbucket.org/osrf/gazebo4-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo4-release
 Homepage: http://gazebosim.org
@@ -99,7 +102,7 @@ Description: Open Source Robotics Simulator - shared library
  .
  This package gathers shared libraries used
 
-Package: libgazebo-dev-prerelease
+Package: libgazebo4-dev-prerelease
 Architecture: any
 Section: libdevel
 Depends: libtbb-dev,
@@ -111,12 +114,13 @@ Depends: libtbb-dev,
 	 libboost-all-dev,
 	 freeglut3-dev,
 	 libogre-1.8-dev,
-	 libtar-dev,
+         libtar-dev (>= 1.2.20-3ubuntu0.1),
 	 libcurl4-openssl-dev,
 	 libcegui-mk2-dev,
 	 libgts-dev,
          libusb-1.0-0-dev,
-	 libsdformat2-dev-prerelease,
+	 libsdformat2-dev-prerelease | libsdformat-dev (>= 2.0.0),
+	 libsdformat2-dev-prerelease | libsdformat-dev (<< 3.0.0),
 	 libgazebo4-prerelease (= ${binary:Version}),
 	 gazebo4-common-prerelease (= ${source:Version}),
 	 gazebo4-plugin-base-prerelease (= ${source:Version}),
