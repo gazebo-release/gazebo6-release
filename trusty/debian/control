@@ -39,6 +39,9 @@ Build-Depends: cmake,
      libusb-1.0-0-dev,
      libsdformat2-dev-prerelease | libsdformat-dev (>= 2.0.0),
      libsdformat2-dev-prerelease | libsdformat-dev (<< 3.0.0),
+     libsimbody-dev (>= 3.0.0),
+     libsimbody-dev (<< 4.0.0),
+     libbullet2.82-dev
      ruby-ronn
 Vcs-Browser: https://bitbucket.org/osrf/gazebo4-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo4-release
@@ -121,6 +124,9 @@ Depends: libtbb-dev,
          libusb-1.0-0-dev,
 	 libsdformat2-dev-prerelease | libsdformat-dev (>= 2.0.0),
 	 libsdformat2-dev-prerelease | libsdformat-dev (<< 3.0.0),
+         libsimbody-dev (>= 3.0.0),
+         libsimbody-dev (<< 4.0.0),
+         libbullet2.82-dev,
 	 libgazebo4-prerelease (= ${binary:Version}),
 	 gazebo4-common-prerelease (= ${source:Version}),
 	 gazebo4-plugin-base-prerelease (= ${source:Version}),
