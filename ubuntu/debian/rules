@@ -25,6 +25,7 @@ endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+	        -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo \
                 -DENABLE_TESTS_COMPILATION:BOOL=False \
 	        $(CONFIGURE_ARGS) \
 
