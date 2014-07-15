@@ -44,7 +44,7 @@ override_dh_install:
 	    debian/gazebo4-prerelease/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
         # Install desktop file
 	mkdir -p debian/gazebo4-prerelease/usr/share/applications/
-	install -m 644 ./debian/gazebo4-prerelease.desktop \
+	install -m 644 ./debian/gazebo.desktop \
 	    debian/gazebo4-prerelease/usr/share/applications/
 
 # No test for now. Need some refactor work first
