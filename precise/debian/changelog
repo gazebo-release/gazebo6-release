@@ -1,3 +1,9 @@
+gazebo4-prerelease (4.0.0-2~precise) precise; urgency=low
+
+  * gazebo4-prerelease 4.0.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 15 Jul 2014 03:53:56 +0200
+
 gazebo4-prerelease (4.0.0-1~precise) precise; urgency=low
 
   * gazebo4-prerelease 4.0.0-1 release
