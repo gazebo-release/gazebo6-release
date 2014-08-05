@@ -1,3 +1,9 @@
+gazebo4-prerelease (4.0.1-2~trusty) trusty; urgency=low
+
+  * gazebo4-prerelease 4.0.1-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 05 Aug 2014 02:30:22 +0200
+
 gazebo4-prerelease (4.0.1-1~trusty) trusty; urgency=medium
 
   * gazebo4-prerelease 4.0.1-1 release
