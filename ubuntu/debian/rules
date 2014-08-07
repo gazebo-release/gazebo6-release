@@ -25,32 +25,25 @@ endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+	        -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo \
                 -DENABLE_TESTS_COMPILATION:BOOL=False \
-                -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
-# Currently broken:
-# https://bitbucket.org/osrf/gazebo/issue/1141
-#override_dh_auto_build-indep:	
-	#dh_auto_build -- doc
+override_dh_auto_build-indep:
+	dh_auto_build -- doc
 
 override_dh_install:
 	dh_install -- # Install.
 
-	# Get rid of fonts already packaged elsewhere.
-	tmp=`ls debian/gazebo3-common/usr/share/gazebo-*/media/gui/fonts/DejaVuSans.ttf` \
-	&& rm $$tmp \
-	&& ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf $$tmp
-	
 	# Install icon
-	mkdir -p debian/gazebo3/usr/share/icons/hicolor/scalable/apps/
+	mkdir -p debian/gazebo4/usr/share/icons/hicolor/scalable/apps/
 	install -m 644 gazebo/gui/images/gazebo.svg \
-	    debian/gazebo3/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
+	    debian/gazebo4/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
         # Install desktop file
-	mkdir -p debian/gazebo3/usr/share/applications/
+	mkdir -p debian/gazebo4/usr/share/applications/
 	install -m 644 ./debian/gazebo.desktop \
-	    debian/gazebo3/usr/share/applications/
+	    debian/gazebo4/usr/share/applications/
 
 # No test for now. Need some refactor work first
 override_dh_auto_test:
@@ -58,7 +51,7 @@ override_dh_auto_test:
 	#dh_auto_test || true
 
 override_dh_strip:
-	dh_strip -a --dbg-package=gazebo3-dbg
+	dh_strip -a --dbg-package=gazebo4-dbg
 
 %:
 	dh $@ --parallel --with bash-completion  
