@@ -160,7 +160,7 @@ Package: gazebo4-plugin-base
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 gazebo4 (= ${binary:Version})
+	     gazebo4 (= ${binary:Version})
 Enhances: gazebo4
 Multi-Arch: foreign
 Conflicts: gazebo3-plugins-base-prerelease,

@@ -1,5 +1,5 @@
-gazebo4 (4.0.0-1~precise) precise; urgency=low
+gazebo4 (4.0.0-1~precise) precise; urgency=medium
 
   * gazebo4 4.0.0-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 07 Aug 2014 01:25:41 +0200
+ -- Nate Koenig <nate@osrfoundation.org>  Thu, 07 Aug 2014 8:55:37 -0700

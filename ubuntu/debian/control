@@ -47,7 +47,7 @@ Homepage: http://gazebosim.org
 
 Package: gazebo4-common
 Architecture: all
-Depends: ttf-dejavu-core, ${misc:Depends}
+
 Multi-Arch: foreign
 Conflicts: gazebo3-common, 
            gazebo3-common-nightly,
@@ -68,8 +68,8 @@ Package: gazebo4
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 libgazebo4 (= ${binary:Version}),
-	 gazebo4-common (= ${source:Version})
+	     libgazebo4 (= ${binary:Version}),
+	     gazebo4-common (= ${source:Version})
 Recommends: gazebo4-plugin-base
 Suggests: gazebo4-doc
 Multi-Arch: foreign
@@ -160,7 +160,7 @@ Package: gazebo4-plugin-base
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 gazebo4 (= ${binary:Version})
+	     gazebo4 (= ${binary:Version})
 Enhances: gazebo4
 Multi-Arch: foreign
 Conflicts: gazebo3-plugins-base, 

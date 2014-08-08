@@ -25,11 +25,12 @@ endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+	        -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo \
                 -DENABLE_TESTS_COMPILATION:BOOL=False \
-                -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	        $(CONFIGURE_ARGS) \
 
-override_dh_auto_build-indep:	
+# Generate Doxygen HTML documentation.
+override_dh_auto_build-indep:
 	dh_auto_build -- doc
 
 override_dh_install:
