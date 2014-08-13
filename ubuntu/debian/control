@@ -47,9 +47,11 @@ Homepage: http://gazebosim.org
 
 Package: gazebo4-common
 Architecture: all
-Depends: ttf-dejavu-core, ${misc:Depends}
+
 Multi-Arch: foreign
-Conflicts: gazebo4-common-prerelease, 
+Conflicts: gazebo3-common, 
+           gazebo3-common-nightly,
+           gazebo4-common-prerelease,
            gazebo4-common-nightly
 Description: Open Source Robotics Simulator - Shared files
  Gazebo is a multi-robot simulator for outdoor environments. Like
@@ -94,7 +96,8 @@ Multi-Arch: same
 Conflicts: gazebo,
            gazebo-current,
            gazebo2,
-           libgazebo3,
+           libgazebo3-prerelease, 
+           libgazebo3-nightly,
            libgazebo4-prerelease, 
            libgazebo4-nightly
 Description: Open Source Robotics Simulator - shared library
@@ -160,7 +163,9 @@ Depends: ${shlibs:Depends},
 	     gazebo4 (= ${binary:Version})
 Enhances: gazebo4
 Multi-Arch: foreign
-Conflicts: gazebo4-plugins-base-prerelease, gazebo4-plugins-nightly
+Conflicts: gazebo3-plugins-base, 
+           gazebo4-plugins-prerelease,
+           gazebo4-plugins-nightly
 Description: Open Source Robotics Simulator - base plug-ins
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -177,7 +182,6 @@ Section: debug
 Depends: gazebo4 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: foreign
-Conflicts: gazebo4-dbg-prerelease, gazebo4-dbg-nightly
 Description: Open Source Robotics Simulator - Debugging Symbols
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -193,7 +197,8 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends}
 Multi-Arch: foreign
-Conflicts: gazebo4-doc-prerelease, gazebo4-doc-nightly
+Conflicts: gazebo3-doc, 
+           gazebo3-doc-nightly
 Description: Open Source Robotics Simulator - Documentation
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
