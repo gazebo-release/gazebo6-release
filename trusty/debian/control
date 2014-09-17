@@ -74,8 +74,9 @@ Recommends: gazebo4-plugin-base
 Suggests: gazebo4-doc
 Multi-Arch: foreign
 Conflicts: gazebo,
-           gazebo2,
            gazebo-current,
+           gazebo2,
+           gazebo3,
            gazebo3-prerelease,
            gazebo3-nightly,
            gazebo4-prerelease,
@@ -96,6 +97,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Conflicts: gazebo,
            gazebo-current,
+           libgzebo3,
            libgazebo3-prerelease, 
            libgazebo3-nightly,
            libgazebo4-prerelease, 
@@ -163,7 +165,8 @@ Depends: ${shlibs:Depends},
 	     gazebo4 (= ${binary:Version})
 Enhances: gazebo4
 Multi-Arch: foreign
-Conflicts: gazebo3-plugins-base-prerelease,
+Conflicts: gazebo3-plugins-base,
+           gazebo3-plugins-base-prerelease,
            gazebo3-plugins-nightly,
            gazebo4-plugins-base-prerelease,
            gazebo4-plugins-nightly
@@ -198,7 +201,8 @@ Architecture: all
 Section: doc
 Depends: ${misc:Depends}
 Multi-Arch: foreign
-Conflicts: gazebo3-doc-prerelease,
+Conflicts: gazebo3,
+           gazebo3-doc-prerelease,
            gazebo3-doc-nightly,
            gazebo4-doc-prerelease,
 Description: Open Source Robotics Simulator - Documentation
