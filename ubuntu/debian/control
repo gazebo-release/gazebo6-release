@@ -47,7 +47,6 @@ Homepage: http://gazebosim.org
 
 Package: gazebo4-common
 Architecture: all
-
 Multi-Arch: foreign
 Conflicts: gazebo3-common, 
            gazebo3-common-nightly,
