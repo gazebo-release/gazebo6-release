@@ -1,1 +1,2 @@
-../../ubuntu/debian/gazebo-common.install
+usr/share/gazebo-*/media/*
+usr/share/gazebo-*/worlds/*

@@ -1,23 +1,29 @@
-gazebo4 (4.0.2-1~precise) precise; urgency=medium
+gazebo5 (5.0.0-1~precise) precise; urgency=medium
 
-  * gazebo4 4.0.2-1 release
+  * gazebo5 5.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 27 Oct 2014 19:12:55 -0700
+
+gazebo5 (4.0.2-1~precise) precise; urgency=medium
+
+  * gazebo5 4.0.2-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 23 Sep 2014 17:16:57 +0200
 
-gazebo4 (4.0.1-1~precise) precise; urgency=medium
+gazebo5 (4.0.1-1~precise) precise; urgency=medium
 
-  * gazebo4 4.0.1-1 release
+  * gazebo5 4.0.1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 18 Aug 2014 20:29:45 +0200
 
-gazebo4 (4.0.0-2~precise) precise; urgency=medium
+gazebo5 (4.0.0-2~precise) precise; urgency=medium
 
-  * gazebo4 4.0.0-2 release
+  * gazebo5 4.0.0-2 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Thu, 07 Aug 2014 8:55:37 -0700
  
-gazebo4 (4.0.0-1~precise) precise; urgency=medium
+gazebo5 (4.0.0-1~precise) precise; urgency=medium
 
-  * gazebo4 4.0.0-1 release
+  * gazebo5 4.0.0-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Thu, 07 Aug 2014 8:55:37 -0700
