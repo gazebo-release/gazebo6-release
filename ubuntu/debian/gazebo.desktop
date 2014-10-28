@@ -8,4 +8,4 @@ Categories=Development;Education;Science;
 StartupNotify=true
 OnlyShowIn=GNOME;Unity;
 Keywords=Run;
-Name[en_US]=gazebo4-prerelease.desktop
+Name[en_US]=gazebo5.desktop
