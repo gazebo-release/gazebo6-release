@@ -1,5 +1,5 @@
-gazebo4-prerelease (5.0.0-1~precise) precise; urgency=medium
+gazebo5-prerelease (5.0.0-1~precise) precise; urgency=medium
 
-  * gazebo4-prerelease 5.0.0-1 release
+  * gazebo5-prerelease 5.0.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 27 Oct 2014 19:02:46 -0700
