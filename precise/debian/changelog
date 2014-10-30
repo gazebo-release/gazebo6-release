@@ -1,3 +1,9 @@
+gazebo5-prerelease (5.0.1-1~precise) precise; urgency=medium
+
+  * gazebo5-prerelease 5.0.1-1 release
+
+ -- jrivero <jrivero@osrfoundation>  Wed, 29 Oct 2014 16:59:53 -0700
+
 gazebo5-prerelease (5.0.0-1~precise) precise; urgency=medium
 
   * gazebo5-prerelease 5.0.0-1 release
