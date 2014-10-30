@@ -1,6 +1,35 @@
-gazebo5-prerelease (5.0.0-1~trusty) trusty; urgency=medium
+gazebo4-prerelease (4.0.1-3~trusty) trusty; urgency=low
 
-  * gazebo5-prerelease 5.0.0-1 release
+  * gazebo4-prerelease 4.0.1-3 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 27 Oct 2014 19:02:45 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 06 Aug 2014 15:24:00 +0200
 
+gazebo4-prerelease (4.0.1-2~trusty) trusty; urgency=low
+
+  * gazebo4-prerelease 4.0.1-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 05 Aug 2014 02:30:22 +0200
+
+gazebo4-prerelease (4.0.1-1~trusty) trusty; urgency=medium
+
+  * gazebo4-prerelease 4.0.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 04 Aug 2014 16:49:34 -0700
+
+gazebo4-prerelease (4.0.0-4~trusty) trusty; urgency=low
+
+  * gazebo4-prerelease 4.0.0-4 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 22 Jul 2014 22:42:23 +0200
+
+gazebo4-prerelease (4.0.0-2~trusty) trusty; urgency=low
+
+  * gazebo4-prerelease 4.0.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 15 Jul 2014 03:53:56 +0200
+
+gazebo4-prerelease (4.0.0-1~trusty) trusty; urgency=low
+
+  * gazebo4-prerelease 4.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 10 Apr 2014 14:54:39 +0200
