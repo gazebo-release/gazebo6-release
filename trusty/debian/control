@@ -50,7 +50,10 @@ Package: gazebo5-common-prerelease
 Architecture: all
 Depends: ttf-dejavu-core, ${misc:Depends}
 Multi-Arch: foreign
-Conflicts: gazebo5-common, 
+Conflicts: gazebo,
+           gazebo2,
+           gazebo4-common,
+           gazebo5-common, 
            gazebo5-common-nightly
 Description: Open Source Robotics Simulator - Shared files
  Gazebo is a multi-robot simulator for outdoor environments. Like
@@ -73,7 +76,8 @@ Recommends: gazebo5-plugin-base-prerelease
 Suggests: gazebo5-doc-prerelease
 Multi-Arch: foreign
 Conflicts: gazebo,
-           gazebo-current,
+           gazebo2,
+           gazebo4,
            gazebo5,
            gazebo5-nightly,
 Description: Open Source Robotics Simulator
@@ -91,8 +95,9 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Conflicts: gazebo,
-           gazebo-current,
-           libgazebo5, 
+           gazebo2,
+           libgazebo4,
+           libgazebo5,
            libgazebo5-nightly
 Description: Open Source Robotics Simulator - shared library
  Gazebo is a multi-robot simulator for outdoor environments. Like
@@ -134,7 +139,11 @@ Depends: libtbb-dev,
 	 gazebo5-plugin-base-prerelease (= ${source:Version}),
 	 ${misc:Depends}
 Multi-Arch: same
-Conflicts: libgazebo-dev, libgazebo-dev-nightly
+Conflicts: libgazebo-dev-prerelease (<< 5.0.0),
+           libgazebo-dev-prerelease (>= 6.0.0),
+           libgazebo5-dev,
+           libgazebo-dev-nightly,
+           libgazebo5-dev-nightly
 Description: Open Source Robotics Simulator - Development Files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
