@@ -1,3 +1,9 @@
+gazebo5-prerelease (5.0.4-2~trusty) trusty; urgency=medium
+
+  * gazebo5-prerelease 5.0.4-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 16 Dec 2014 20:40:36 +0100
+
 gazebo5-prerelease (5.0.4-1~trusty) trusty; urgency=medium
 
   * gazebo5-prerelease 5.0.4-1 release
