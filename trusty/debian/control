@@ -1,3 +1,8 @@
+####################################
+#
+# Note: Using OGRE3D for haptix
+#
+####################################
 Source: gazebo5-prerelease
 Standards-Version: 3.9.5
 Maintainer: Nate Koenig <nate@osrfoundation.org>
@@ -18,7 +23,7 @@ Build-Depends: cmake,
      libtinyxml-dev,
      libtar-dev (>= 1.2.20-3ubuntu0.1),
      libtbb-dev,
-     libogre-1.8-dev,
+     libogre3d-1.8-dev, 
      libxml2-dev,
      pkg-config,
      libqt4-dev,
@@ -120,7 +125,7 @@ Depends: libtbb-dev,
 	 libprotobuf-dev,
 	 libboost-all-dev,
 	 freeglut3-dev,
-	 libogre-1.8-dev,
+	 libogre3d-1.8-dev,
          libtar-dev (>= 1.2.20-3ubuntu0.1),
 	 libcurl4-openssl-dev,
 	 libcegui-mk2-dev,
