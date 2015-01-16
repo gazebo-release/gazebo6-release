@@ -3,9 +3,3 @@ gazebo5-haptix (5.0.5-3~trusty) trusty; urgency=medium
   * gazebo5-haptix 5.0.5-3 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 16 Jan 2015 01:33:34 +0100
-
-gazebo5-haptix (5.0.5-2~trusty) trusty; urgency=medium
-
-  * gazebo5-haptix 5.0.5-2 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 09 Jan 2015 21:48:49 +0100
