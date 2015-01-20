@@ -1,4 +1,4 @@
-gazebo5 (5.0.0-1~trusty~beta1) trusty; urgency=medium
+gazebo5-beta (5.0.0-1~trusty~beta1) trusty; urgency=medium
 
   * gazebo5-prerelease 5.0.0-1~trusty~beta1 release
 
