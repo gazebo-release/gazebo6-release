@@ -1,8 +1,8 @@
-gazebo5-beta3 (5.0.0-1~trusty~beta3) utopic; urgency=medium
+gazebo5 (5.0.0-1~utopic) utopic; urgency=medium
 
-  * gazebo5-beta 5.0.0-1~utopic~beta3 release
+  * gazebo5 5.0.0-1~utopic release
 
- -- Nate Koenig <nate@osrfoundation.org>  Mon, 26 Jan 2015 16:21:23 +0800
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 26 Jan 2015 21:06:13 +0800
 
 gazebo5-beta2 (5.0.0-1~utopic~beta2) utopic; urgency=medium
 
