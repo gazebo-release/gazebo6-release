@@ -1,3 +1,9 @@
+gazebo5-beta3 (5.0.0-1~trusty~beta3) trusty; urgency=medium
+
+  * gazebo5-beta 5.0.0-1~trusty~beta3 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 26 Jan 2015 16:21:23 +0800
+
 gazebo5-beta2 (5.0.0-1~trusty~beta2) trusty; urgency=medium
 
   * gazebo5-beta 5.0.0-1~trusty~beta2 release
