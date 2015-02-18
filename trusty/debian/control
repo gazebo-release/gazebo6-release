@@ -56,6 +56,7 @@ Conflicts: gazebo2,
            gazebo3-common,
            gazebo4-common,
            gazebo5-common,
+           gazebo5-common-prerelease,
            gazebo6-common,
            gazebo6-common-nightly,
 Description: Open Source Robotics Simulator - Shared files
@@ -82,6 +83,7 @@ Conflicts: gazebo2,
            gazebo3,
            gazebo4,
            gazebo5,
+           gazebo5-prerelease,
            gazebo6,
            gazebo6-nightly,
 Description: Open Source Robotics Simulator
@@ -103,6 +105,7 @@ Conflicts: gazebo,
            libgazebo3,
            libgazebo4,
            libgazebo5,
+           libgazebo5-prerelease,
            libgazebo6,
            libgazebo6-nightly
 Description: Open Source Robotics Simulator - shared library
@@ -173,6 +176,7 @@ Depends: ${shlibs:Depends},
 Enhances: gazebo6-prerelease
 Multi-Arch: foreign
 Conflicts: gazebo5-plugins-base,
+           gazebo5-plugins-base-prerelease,
            gazebo6-plugins-base, 
            gazebo6-plugins-base-nightly
 Description: Open Source Robotics Simulator - base plug-ins
