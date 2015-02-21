@@ -1,3 +1,9 @@
+gazebo6-prerelease (6.0.1-1~trusty) trusty; urgency=medium
+
+  * gazebo6-prerelease 6.0.1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 20 Feb 2015 15:54:11 -0800
+
 gazebo6-prerelease (6.0.0-3~trusty) trusty; urgency=medium
 
   * gazebo6-prerelease 6.0.0-3 release
