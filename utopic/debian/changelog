@@ -1,3 +1,9 @@
+gazebo6-prerelease (6.0.2-1~utopic) utopic; urgency=medium
+
+  * gazebo6-prerelease 6.0.2-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 12 Mar 2015 15:57:28 -0700
+
 gazebo6-prerelease (6.0.1-1~utopic) utopic; urgency=medium
 
   * gazebo6-prerelease 6.0.1-1 release
