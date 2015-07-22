@@ -42,7 +42,7 @@ Build-Depends: cmake,
      libsdformat3-dev-prerelease (>= 3.0.3),
      libsimbody-dev (>= 3.0.0),
      libsimbody-dev (<< 4.0.0),
-     libbullet2.82-dev,
+     libbullet-dev,
      ruby-ronn
 Vcs-Browser: https://bitbucket.org/osrf/gazebo6-elease
 Vcs-Hg: https://bitbucket.org/osrf/gazebo6-release
