@@ -51,7 +51,7 @@ override_dh_auto_test:
 	#dh_auto_test || true
 
 override_dh_strip:
-	dh_strip -a --dbg-package=gazebo6-dbg-prerelease
+	dh_strip -a --dbg-package=gazebo6-dbg
 
 %:
 	dh $@ --parallel --with bash-completion  
