@@ -1,3 +1,9 @@
+gazebo6-prerelease (6.0.7-1~utopic) utopic; urgency=medium
+
+  * gazebo6-prerelease 6.0.7-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 Jul 2015 04:03:51 +0200
+
 gazebo6-prerelease (6.0.6-1~utopic) utopic; urgency=medium
 
   * gazebo6-prerelease 6.0.6-1 release
