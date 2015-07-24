@@ -1,3 +1,9 @@
+gazebo6-prerelease (6.0.9-1~trusty) trusty; urgency=medium
+
+  * gazebo6-prerelease 6.0.9-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 24 Jul 2015 10:29:09 -0700
+
 gazebo6-prerelease (6.0.8-1~trusty) trusty; urgency=medium
 
   * gazebo6-prerelease 6.0.8-1 release
