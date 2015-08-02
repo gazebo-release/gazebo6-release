@@ -1,3 +1,9 @@
+gazebo6 (6.1.0-1~utopic) utopic; urgency=medium
+
+  * gazebo6 6.1.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Sun, 02 Aug 2015 12:40:36 -0700
+
 gazebo6 (6.0.0-4~utopic) utopic; urgency=medium
 
   * gazebo6 6.0.0-4 release
