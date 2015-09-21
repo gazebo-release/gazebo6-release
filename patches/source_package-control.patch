@@ -1,0 +1,9 @@
+diff -r c7e252566e57 ubuntu/debian/control
+--- a/ubuntu/debian/control	Tue Aug 25 06:29:53 2015 -0700
++++ b/ubuntu/debian/control	Fri Sep 04 02:20:06 2015 +0200
+@@ -1,4 +1,4 @@
+-Source: gazebo6
++Source: gazebo6-mentor2
+ Standards-Version: 3.9.5
+ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+ Section: science
