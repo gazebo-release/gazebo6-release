@@ -1,0 +1,21 @@
+diff -r 242f117720e7 trusty/debian/control
+--- a/trusty/debian/control	Mon Aug 17 18:23:50 2015 +0200
++++ b/trusty/debian/control	Wed Sep 23 03:28:38 2015 +0200
+@@ -38,7 +38,7 @@
+      libusb-1.0-0-dev,
+      libspnav-dev,
+      libgdal-dev,
+-     libsdformat3-dev,
++     libsdformat3-dev (>= 3.99.99+mentor2v1.0),
+      libsimbody-dev (>= 3.0.0),
+      libsimbody-dev (<< 4.0.0),
+      libbullet2.82-dev,
+@@ -138,7 +138,7 @@
+ 	 libavformat-dev,
+ 	 libavcodec-dev,
+ 	 libswscale-dev,
+-         libsdformat3-dev,
++         libsdformat3-dev (>= 3.99.99+mentor2v1.0),
+          libsimbody-dev (>= 3.0.0),
+          libsimbody-dev (<< 4.0.0),
+          libbullet2.82-dev,
