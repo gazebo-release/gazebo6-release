@@ -1,3 +1,9 @@
+gazebo6 (6.6.0-1~trusty) trusty; urgency=medium
+
+  * gazebo6 6.6.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 07 Apr 2016 18:24:02 +0200
+
 gazebo6 (6.5.1-1~trusty) trusty; urgency=medium
 
   * gazebo6 6.5.1-1 release
